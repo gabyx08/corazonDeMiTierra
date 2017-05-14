@@ -9,18 +9,37 @@
   </head>
   <body>
     <header id="registroBtn" class="container">
-        <button type="button" name="button">REGISTRATE</button>
-        <button type="button" name="button">INICIA SESION</button>
+        <a href="#formulario" class="boton">REGISTRATE</a>
+        <a href="#" class="boton">INICIA SESION</a>
     </header>
-    <section  id="nav-infoVol" class="container">
-      <nav class="container menu">
-        <a href="index.html">INICIO</a>
-        <a href="fondeo.html">FONDEO</a>
-        <a href="tienda.html">TIENDA</a>
-      </nav>
-      <section id="infoVol">
-        <h1>VOLUNTARIOS</h1>
+    <nav class="container menu menu-nav">
+      <img class="logo" src="assets/img/logo_completo.png">
+      <a href="index.html" class="link-nav">INICIO</a>
+      <a href="fondeo.html" class="link-nav">FONDEO</a>
+      <a href="tienda.html" class="link-nav">TIENDA</a>
+    </nav>
+    <section  class="container derecha">
+      <section id="infoVol" class="container">
+        <!-- <h1>VOLUNTARIOS</h1> -->
+        <h2 class="texto">¿Tienes interés por enseñar?</h2>
+        <h4 class="texto">¿Te gustaría ayudar a promover el empoderamiento de mujeres rurales
+          a través de la enseñanza de técnicas ambientales, educación financiera y emprendimiento, alfabetización?</h4>
+        <h3 class="texto">¡Participa en nuestros COLECTIVOS DE VOLUNTARIOS y sé parte del cambio! </h3>
+        <img src="assets/img/voluntariado/voluntariado.jpg" width="70%">
+        <a href="#formulario" class="boton">ÚNETE A UN PROYECTO</a>
       </section>
     </section>
+
+    <section  class="container derecha">
+      <section id="formulario" class="container">
+        <h2>UNETE A NUESTRA RED DE VOLUNTARIOS</h2>
+        <input type="text" placeholder="NOMBRE">
+        <input type="number" placeholder="TELEFONO">
+        <input type="email" placeholder="EMAIL">
+        <input type="text" placeholder="PROPUESTA DE TU PROYECTO">
+        <textarea name="name" rows="8" cols="40" placeholder="DESCRIPCION DE TU PROPUESTA"></textarea>
+        <button type="send" name="button" class="boton">ENVIAR</button>
+       </section>
+     </section>
   </body>
 </html>

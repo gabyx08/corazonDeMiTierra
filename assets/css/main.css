@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 *{
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
 }
 body{
   background: #000;
@@ -8,6 +10,10 @@ body{
   display: flex;
   margin: 0;
   padding: 0;
+}
+.logo{
+  width: 60%;
+  height: 15%;
 }
 #nav-carrusel{
   width: 100%;
@@ -22,10 +28,39 @@ body{
   align-items: center;
   width: 15%;
   margin: 1%;
-  background: white;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.link-nav{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.link-nav:hover{
+  cursor: pointer;
+  color: yellow;
+  text-decoration: none;
 }
 .carousel{
   width: 85%;
+}
+.carousel-caption{
+  position: absolute;
+  margin-bottom: 350px;
+}
+.carousel-caption h2{
+  font-size: 60px;
+  background-color: rgba(75, 212, 123, 0.5);
+}
+.carousel-caption button{
+  border: 3px double #fff;
+  color: white;
+  background-color: rgba(241, 196, 15, 0.5);
+  font-size: 25px;
+}
+.carousel-caption button:hover{
+  background: rgba(112, 123, 124, 0.5);
 }
 footer{
   justify-content: space-around;
