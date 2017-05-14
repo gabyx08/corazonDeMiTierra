@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #000;
+}
+.container{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+#nav-carrusel{
+  width: 100%;
+  justify-content: center;
+}
+.imgCarrusel{
+  width: 100%;
+}
+.menu{
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 10%;
+  margin: 1%;
+  background: white;
+}
+.carousel{
+  width: 90%;
+}
+footer{
+  justify-content: center;
+}
