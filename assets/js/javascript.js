@@ -5,7 +5,6 @@ for(i = 0; i < imgs.length; i++){
 }
 
 function abrir(){
-
   document.getElementById("myModal").style.display="block";
   document.getElementById("imageZoom").src = this.src
 }
