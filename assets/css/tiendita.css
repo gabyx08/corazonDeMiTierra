@@ -2,38 +2,27 @@
   margin: 0;
   padding: 0;
 }
-
-nav{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  width:100%;
-  padding: 20px;
-  background: red;
+.center{
+  text-align: center;
 }
-
-#corazon{
-  border: 1px solid black;
-  width: 30px;
+#galeria{
+  width: 80%;
+  background: #fff;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3%;
 }
-
-section{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  margin: 100px 20px;
+.img-producto{
+  padding: 10px 110px;
 }
 
 .producto{
   /*border: 1px solid black;*/
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 10px;
   width: 300px;
-}
-
-img{
-  padding: 10px 110px;
 }
 
 p{
@@ -50,4 +39,5 @@ button{
   height: 25px;
   background: green;
   color: #fff;
+  padding: 1% 20%;
 }
